@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: blue;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    padding: 20px 0;
+    background-color: blue; /* Geel */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: yellow; /* Donkere tekst voor contrast */
+    font-size: 20px;
+    margin: 0 15px;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f4f4f9; /* Lichtgrijze hover */
+    color: #ffd700; /* Gele hover tekst */
+    border-radius: 4px;
+}
+
+
+main {
+    background-color: #f9f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+p {
+    color: #ffd700; /* Gele tekst */
+    font-size: 22px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-weight: 300;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: yellow; /* Gele titel */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 36px;
+    color: yellow; /* Donkere kleur voor subtitels */
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffd700; /* Gele onderstreep */
+}
+header{
+    background-color: blue;
+}
